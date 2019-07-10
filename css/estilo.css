@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header .navbar-brand {
+    padding: 0 30px;
+}
+header .navbar-brand img{
+    max-height: 100%;
+}
+
+header nav ul li a {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.table td {
+    text-transform: uppercase;
+}
+
+.table td a:not(.btn) {
+    color: #555;
+    font-weight: 500;
+}
+.table tfoot tr td{
+    padding: 10px 5px;
+    font-weight: 600;
+    background-color: lightgray;
+}
+
+.vermelho td {
+    background-color: #fdb8b8;
+}
+
+footer {
+    border-top: 1px solid rgb(201, 200, 200);
+    padding: 20px 0;
+    color: rgb(139, 139, 139);
+}
+
+.ag2b {
+    height: 100vh;
+    background-color: grey;
+}
+
+.ns {
+    height: 100vh;
+}
+
+.portfolio {
+    height: 100vh;
+}
+
+.noticias {
+    height: 100vh;
+}
+
+.sso {
+    height: 100vh;
+}
+
+.residenciais {
+    height: 100vh;
+}
+
+.comerciais {
+    height: 100vh;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+.navbar {
+    margin-bottom: 0;
+}
+
+.textos-ag2b{
+    height: 40%;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+}
+
+@media (max-width: 1200px){
+    .flexbox {
+        flex-direction: column;
+    }
+}

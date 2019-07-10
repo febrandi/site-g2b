@@ -1,0 +1,26 @@
+
+{
+    "produtos": [
+        {
+            "nome": "Camiseta Branca",
+            "preco": "30",
+            "testoque": "100",
+            "min":"5",
+            "status": "Ativo"
+        },
+        {
+            "nome": "Calça",
+            "preco": "80",
+            "testoque": "100",
+            "min":"10",
+            "status": "Desativado"
+        },
+        {
+            "nome": "Camiseta Branca",
+            "preco": "150",
+            "testoque": "100",
+            "min":"10",
+            "status": "Ativo"
+        }
+    ]
+}
