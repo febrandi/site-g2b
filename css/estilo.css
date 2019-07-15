@@ -47,7 +47,7 @@ footer {
 
 .ag2b {
     height: 100vh;
-    background-color: grey;
+    background-color: #BDBDBD;
 }
 
 .ns {
@@ -56,6 +56,8 @@ footer {
 
 .portfolio {
     height: 100vh;
+    background-color: #BDBDBD;
+    padding-right: 20px;
 }
 
 .noticias {
@@ -64,6 +66,7 @@ footer {
 
 .sso {
     height: 100vh;
+    background-color: #BDBDBD;
 }
 
 .residenciais {
@@ -80,10 +83,6 @@ footer {
 }
 .navbar {
     margin-bottom: 0;
-}
-
-.textos-ag2b{
-    height: 40%;
 }
 
 .flexbox {
