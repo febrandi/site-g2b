@@ -23,62 +23,85 @@ include_once('header.php'); // inclui header na pagina
         <section class="col-sm-12">
             <div class="residenciais">
                 <h2>Residencias</h2>
-                <div class="col-lg-4">
-                    <a href="Portfolio/Residenciais/apartamento_brooklin_1.php">
-                        <img src="img/portfolio/residenciais/apartamento_brooklin_1/01.jpg" alt="Capa Apartamento Brooklin 1" height= 200px>
-                </div>
-
-                <div class="col-lg-4">
-                    <a href="Portfolio/Residenciais/apartamento_brooklin_2.php">
-                        <img src="img/portfolio/residenciais/apartamento_brooklin_2/01.jpg" alt="Capa Apartamento Brooklin 2" height= 200px>
-                </div>
-
-                <div class="col-lg-4">
-                    <a href="Portfolio/Residenciais/apartamento_caconde.php">
-                        <img src="img/portfolio/residenciais/apartamento_caconde/01.jpg" alt="Capa Apartamento Caconde" height= 200px>
-                </div>
-
-                <div class="col-lg-4">
-                    <a href="Portfolio/Residenciais/apartamento_moema_1.php">
-                        <img src="img/portfolio/residenciais/apartamento_moema_1/01.jpg" alt="Capa Apartamento Moema 1" height= 200px>
-                </div>
-
-                <div class="col-lg-4">
-                    <a href="Portfolio/Residenciais/apartamento_moema_2.php">
-                        <img src="img/portfolio/residenciais/apartamento_moema_2/01.jpg" alt="Capa Apartamento Moema 2" height= 200px>
-                </div>
 
                 <div class="col-lg-4">
                     <a href="Portfolio/Residenciais/apartamento_tutoia.php">
-                        <img src="img/portfolio/residenciais/apartamento_tutoia/01.jpg" alt="Capa Apartamento Tutoia" height= 200px>
-                </div>
-
-                <div class="col-lg-4">
-                    <a href="Portfolio/Residenciais/apartamento_villa_cruzeiro.php">
-                        <img src="img/portfolio/residenciais/apartamento_villa_cruzeiro/01.jpg" alt="Capa Villa Cruzeiro" height= 200px>
-                </div>
-
-                <div class="col-lg-4">
-                    <a href="Portfolio/Residenciais/apartamentos_jardim_das_perdizes.php">
-                        <img src="img/portfolio/residenciais/apartamentos_jardim_das_perdizes/01.jpg" alt="Capa Apartamentos Jardim das Perdizes" height= 200px>
+                        <div class="item" style="background-image: url('img/portfolio/residenciais/apartamento_tutoia/01.jpg')"></div>
+                    </a>
+                    <h4>Apartamento Tutóia</h4>
                 </div>
 
                 <div class="col-lg-4">
                     <a href="Portfolio/Residenciais/casa_morumbi_1.php">
-                        <img src="img/portfolio/residenciais/casa_morumbi_1/01.jpg" alt="Capa Apartamento Morumbi 1" height= 200px>
+                        <div class="item" style="background-image: url('img/portfolio/residenciais/casa_morumbi_1/01.jpg')"></div>
+                    </a>
+                    <h4>Casa Morumbi 1</h4>
                 </div>
 
                 <div class="col-lg-4">
-                    <a href="Portfolio/Residenciais/casa_morumbi_2.php">
-                        <img src="img/portfolio/residenciais/casa_morumbi_2/01.jpg" alt="Capa Apartamento Morumbi 2" height= 200px>
+                    <a href="Portfolio/Residenciais/apartamentos_jardim_das_perdizes.php">
+                        <div class="item" style="background-image: url('img/portfolio/residenciais/apartamentos_jardim_das_perdizes/01.jpg')"></div>
+                    </a>
+                    <h4>Apartamentos Jardim das Perdizes</h4>
                 </div>
 
                 <div class="col-lg-4">
                     <a href="Portfolio/Residenciais/edificio_ayruoca.php">
-                        <img src="img/portfolio/residenciais/edificio_ayruoca/1.jpg" alt="Capa Edifício Ayruoca" height= 200px>
+                        <div class="item" style="background-image: url('img/portfolio/residenciais/edificio_ayruoca/1.jpg')"></div>
+                    </a>
+                    <h4>Edifício Ayruoca</h4>
+                </div>
+
+                <div class="col-lg-4">
+                    <a href="Portfolio/Residenciais/apartamento_caconde.php">
+                        <div class="item" style="background-image: url('img/portfolio/residenciais/apartamento_caconde/01.jpg')"></div>
+                    </a>
+                    <h4>Apartamento Caconde</h4>
+                </div>
+
+                <div class="col-lg-4">
+                    <a href="Portfolio/Residenciais/apartamento_brooklin_2.php">
+                        <div class="item" style="background-image: url('img/portfolio/residenciais/apartamento_brooklin_2/01.jpg')"></div>
+                    </a>
+                    <h4>Apartamento Brooklin 2</h4>
+                </div>
+
+                <div class="col-lg-4">
+                    <a href="Portfolio/Residenciais/apartamento_moema_2.php">
+                        <div class="item" style="background-image: url('img/portfolio/residenciais/apartamento_moema_2/01.jpg')"></div>
+                    </a>
+                    <h4>Apartamento Moema 2</h4>
+                </div>
+
+                <div class="col-lg-4">
+                    <a href="Portfolio/Residenciais/apartamento_moema_1.php">
+                        <div class="item" style="background-image: url('img/portfolio/residenciais/apartamento_moema_1/01.jpg')"></div>
+                    </a>
+                    <h4>Apartamento Moema 1</h4>
+                </div>
+
+                <div class="col-lg-4">
+                    <a href="Portfolio/Residenciais/apartamento_villa_cruzeiro.php">
+                        <div class="item" style="background-image: url('img/portfolio/residenciais/apartamento_villa_cruzeiro/01.jpg')"></div>
+                    </a>
+                    <h4>Apartamento Villa Cruzeiro</h4>
+                </div>
+
+                <div class="col-lg-4">
+                    <a href="Portfolio/Residenciais/casa_morumbi_2.php">
+                        <div class="item" style="background-image: url('img/portfolio/residenciais/casa_morumbi_2/01.jpg')"></div>
+                    </a>
+                    <h4>Casa Morumbi 2</h4>
+                </div>
+
+                <div class="col-lg-4">
+                    <a href="Portfolio/Residenciais/apartamento_brooklin_1.php">
+                        <div class="item" style="background-image: url('img/portfolio/residenciais/apartamento_brooklin_1/01.jpg')"></div>
+                    </a>
+                    <h4>Apartamento Brooklin 1</h4>
                 </div>
             </div>
-        </section>
+        </section>  
     </main>
 
 </body>

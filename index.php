@@ -16,28 +16,39 @@ include_once('header.php'); // inclui header na pagina
 </head>
 
   <body>
+    <section class="banner">
+      <video autoplay muted loop id="myVideo">
+        <source src="img/video_intro.mp4" type="video/mp4">
+      </video>
+    <div class="overflow">
+      <div class="content">
+      <img src="img/logo_g2b.png" alt="G2B">
+      </div>
+    </div>
 
+
+    </section>
     <main class="container-fluid">
-        
+
       <section class="container-fluid ag2b">
         <div class="container flexbox">
           <div class="textos-ag2b">
             <h2>Especializados em Gerenciamento de Obras</h2>
-            <p>Não importa o tamanho da obra, estamos aqui para atender você. Comercial, residencial ou corporativo, 
+            <p>Não importa o tamanho da obra, estamos aqui para atender você. Comercial, residencial ou corporativo,
             faça seu orçamento com a gente e descubra que fazer obras, na verdade, é um prazer.</p>
             <br>
             <br>
             <p><a class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" href="#" role="button">A G2B</a></p>
             <p><a class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" href="#" role="button">Solicite o seu Orçamento</a></p>
           </div>
-                
+
           <div>
-            <img src="img/imagem_ag2b.jpg" alt=" Imagem A G2B" height= 500px>
+            <img id="imagem-ag2b" src="img/imagem_ag2b.jpg" alt=" Imagem A G2B" height= "500px">
           </div>
         </div>
       </section>
-          
-       
+
+
       <section class="container-fluid ns">
         <div class="container flexbox">
           <div class="textos-ns">
@@ -59,23 +70,25 @@ include_once('header.php'); // inclui header na pagina
           </div>
         </div>
       </section>
-          
-    
+
+
       <section class="container-fluid portfolio">
         <div class="container flexbox">
             <div>
               <h2>Residencias</h2>
-              <img src="img/residencial.jpg" alt="Foto Residencial" height = 350px>
+              <img id="imagem1" src="img/residencial.jpg" alt="Foto Residencial" height = 350px>
             </div>
             <div>
               <h2>Comerciais</h2>
               <img src="img/comercial.jpg " alt="Foto Residencial" height = 350px>
             </div>
-            <p><a class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" href="#" role="button">Portfolio</a></p>
-        </div>
+            <div class="botao-portfolio">
+              <p><a class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" href="#" role="button">Portfolio</a></p>
+            </div>
+          </div>
       </section>
-          
-          
+
+
       <section class="container-fluid noticias">
         <h2>Notícias</h2>
         <div class="container flexbox">
@@ -110,15 +123,15 @@ include_once('header.php'); // inclui header na pagina
           </div>
         </div>
       </section>
-         
-      
+
+
       <section class="container-fluid sso">
         <div class="container">
           <h2>Solicite seu Orçamento</h2>
           <button type="button" name="button" class="btn btn-primary btn-lg" href="#">Formulário</button>
         </div>
       </section>
-          
+
     </main>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

@@ -18,6 +18,78 @@ include_once('header.php'); // inclui header na pagina
     <link rel="stylesheet" href="css/estilo.css">
 </head>
 
+<body>
+<div class="container">
+
+<div class="card">
+<div class="img">
+<img src="#" alt="foto notícia 01">
+<div class="social">
+
+</div>
+</div>
+<div class="text">
+  <h2>Notícia 01</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <button type="button" name="button">Ver mais</button>
+</div>
+</div>
+
+<div class="card">
+<div class="img">
+<img src="#" alt="foto notícia 02">
+
+<div class="social">
+
+</div>
+</div>
+<div class="text">
+  <h2>Notícia 02</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <button type="button" name="button">Ver mais</button>
+
+</div>
+</div>
+<div class="card">
+<div class="img">
+<img src="#" alt="foto notícia 03">
+
+<div class="social">
+
+</div>
+</div>
+
+<div class="text">
+  <h2>Notícia 03</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <button type="button" name="button">Ver mais</button>
+
+</div>
+</div>
+
+<div class="card">
+<div class="img">
+<img src="#" alt="foto notícia 04">
+
+<div class="social">
+
+</div>
+</div>
+<div class="text">
+  <h2>Notícia 04</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <button type="button" name="button">Ver mais</button>
+</div>
+</div>
+
+</div>
+</body>
+</html>
+
+
+
+
+
 <?php
 include_once("footer.php");
 ?>

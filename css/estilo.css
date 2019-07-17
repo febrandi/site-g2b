@@ -73,8 +73,24 @@ footer {
     height: 100vh;
 }
 
+.residenciais .item {
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    margin-top: 30px;
+}
+
 .comerciais {
     height: 100vh;
+}
+
+.comerciais .item {
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    margin-top: 30px;
 }
 
 .container-fluid {
@@ -97,4 +113,96 @@ footer {
     .flexbox {
         flex-direction: column;
     }
+}
+
+.container textarea {
+  width: 100%;
+  height: 150px;
+  margin: 0 0 10px;
+  resize: none;
+}
+
+main h1 {
+  color: #054F77;
+}
+main h3 {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+
+.card {
+  display: flex;
+  border: 1px solid #ccc;
+  background-color: white;
+  margin: 20px 0;
+  width: 559px;
+}
+
+.card .img img {
+  width: 150px;
+}
+
+.card .img .social img {
+  width: 30px;
+}
+
+.card .text button {
+  background-color: gray;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  text-transform: uppercase;
+}
+
+.card .img {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.card .text {
+  padding: 10px;
+}
+
+#imagem1{
+    margin-right: 10px;
+}
+
+.botao-portfolio {
+    flex-wrap: wrap;
+}
+
+#imagem-ag2b{
+    padding: 10px; 
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.banner video {
+    width: 100%;
+}
+
+.banner .overflow  {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.banner .overflow .content {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

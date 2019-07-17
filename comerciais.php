@@ -20,69 +20,92 @@ include_once('header.php'); // inclui header na pagina
 
 <body>
     <main class="container">
-        <section class="col-sm-12">
+        <section class="container-fluid">
             <div class="comerciais">
                 <h2>Comerciais</h2>
                 <div class="col-lg-4">
                     <a href="Portfolio/Comerciais/gatgru_interior.php">
-                        <img src="img/portfolio/comerciais/gatgru_interior/01.jpg" alt="Capa Gatgru" height= 200px>
+                        <div class="item" style="background-image: url('img/portfolio/comerciais/gatgru_interior/01.jpg')"></div>
+                    </a>
+                    <h4>GATGRU Interior</h4>
                 </div>
 
                 <div class="col-lg-4">
                     <a href="Portfolio/Comerciais/hotel_grand_hyatt.php">
-                        <img src="img/portfolio/comerciais/hotel_grand_hyatt/01.jpg" alt="Capa Hotel Grand Hyatt" height= 200px>
+                        <div class="item" style="background-image: url('img/portfolio/comerciais/hotel_grand_hyatt/01.jpg')"></div>
+                    </a>
+                    <h4>Hotel Grand Hyatt</h4>
                 </div>
 
                 <div class="col-lg-4">
                     <a href="Portfolio/Comerciais/toca_loggi.php">
-                        <img src="img/portfolio/comerciais/loggi_toca_jardins/01.jpg" alt="Capa Toca loggi" height= 200px>
+                        <div class="item" style="background-image: url('img/portfolio/comerciais/loggi_toca_jardins/01.jpg')"></div>
+                    </a>
+                    <h4>Loggi - Toca Jardins</h4>
                 </div>
 
                 <div class="col-lg-4">
                     <a href="Portfolio/Comerciais/barbearia_brutale.php">
-                        <img src="img/portfolio/comerciais/barbearia_brutale/01.jpg" alt="Capa Barbearia Brutale" height= 200px>
+                        <div class="item" style="background-image: url('img/portfolio/comerciais/barbearia_brutale/01.jpg')"></div>
+                    </a>
+                    <h4>Barbearia Brutale</h4>
                 </div>
 
                 <div class="col-lg-4">
                     <a href="Portfolio/Comerciais/a_cuca.php">
-                        <img src="img/portfolio/comerciais/a_cuca/01.jpg" alt="Capa A Cuca" height= 200px>
+                        <div class="item" style="background-image: url('img/portfolio/comerciais/a_cuca/01.jpg')"></div>
+                    </a>
+                    <h4>A Cuca</h4>
                 </div>
 
                 <div class="col-lg-4">
                     <a href="Portfolio/Comerciais/aille_clinic.php">
-                        <img src="img/portfolio/comerciais/aille_clinic/01.jpg" alt="Capa Aille Clinic" height= 200px>
+                        <div class="item" style="background-image: url('img/portfolio/comerciais/aille_clinic/01.jpg')"></div>
+                    </a>
+                    <h4>Aille Clinic</h4>
                 </div>
 
-                <div class="col-lg-3">
+                <div class="col-lg-4">
                     <a href="Portfolio/Comerciais/mormaii_fitness_jardins.php">
-                        <img src="img/portfolio/comerciais/mormaii_fitness_jardins/01.jpg" alt="Capa Mormaii Fitness Jardins" height= 200px>
+                        <div class="item" style="background-image: url('img/portfolio/comerciais/mormaii_fitness_jardins/01.jpg')"></div>
+                    </a>
+                    <h4>Mormaii Fitness - Jardins</h4>
                 </div>
 
                 <div class="col-lg-4">
                     <a href="Portfolio/Comerciais/no_arouche.php">
-                        <img src="img/portfolio/comerciais/no_arouche/01.jpg" alt="Capa No Arouche" height= 200px>
+                        <div class="item" style="background-image: url('img/portfolio/comerciais/no_arouche/01.jpg')"></div>
+                    </a>
+                    <h4>No Arouche</h4>
                 </div>
 
                 <div class="col-lg-4">
                     <a href="Portfolio/Comerciais/inn_gallery.php">
-                        <img src="img/portfolio/comerciais/inn_gallery/01.jpg" alt="Capa Inn Gallery" height= 200px>
+                        <div class="item" style="background-image: url('img/portfolio/comerciais/inn_gallery/01.jpg')"></div>
+                    </a>
+                    <h4>Inn Gallery</h4>
                 </div>
 
                 <div class="col-lg-4">
                     <a href="Portfolio/Comerciais/escritorio_olivia.php">
-                        <img src="img/portfolio/comerciais/escritorio_olivia/01.jpg" alt="Capa Escritório Olivia" height= 200px>
+                        <div class="item" style="background-image: url('img/portfolio/comerciais/escritorio_olivia/01.jpg')"></div>
+                    </a>
+                    <h4>Escritório Olivia</h4>
                 </div>
 
                 <div class="col-lg-4">
                     <a href="Portfolio/Comerciais/gatgru_infras.php">
-                        <img src="img/portfolio/comerciais/gatgru_infras/01.jpg" alt="Capa Gatgru Infras" height= 200px>
+                        <div class="item" style="background-image: url('img/portfolio/comerciais/gatgru_infras/01.jpg')"></div>
+                    </a>
+                    <h4>GATGRU Infras</h4>
                 </div>
 
                 <div class="col-lg-4">
                     <a href="Portfolio/Comerciais/deposito_central_Master_Supermercados.php">
-                        <img src="img/portfolio/comerciais/deposito_central_Master_Supermercados/01.jpg" alt="Capa Master Supermercados" height= 200px>
+                        <div class="item" style="background-image: url('img/portfolio/comerciais/deposito_central_Master_Supermercados/01.jpg')"></div>
+                    </a>
+                    <h4>Master Supermercados - Depósito Central</h4>
                 </div>
-
             </div>
         </section>
     </main>
